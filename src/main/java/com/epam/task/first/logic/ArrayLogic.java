@@ -6,15 +6,15 @@ import java.util.List;
 
 public class ArrayLogic {
 
-    private void arrayCheck(List<Integer> elements) {
+    private void arrayEmtpinessCheck(List<Integer> elements) {
         if (elements.size() == 0) {
-            throw new IllegalArgumentException("No arguments!");
+            throw new IllegalArgumentException("Array is empty!");
         }
     }
 
     public int findMaxElement(Array array) {
         List<Integer> elements = array.getElements();
-        arrayCheck(elements);
+        arrayEmtpinessCheck(elements);
         int maxElement = elements.get(0);
         for (int element : elements) {
             if (maxElement < element) {
