@@ -25,3 +25,7 @@ hs_err_pid*
 /.idea/jarRepositories.xml
 /.idea/vcs.xml
 /.idea/misc.xml
+.idea/aws.xml
+.idea/codeStyles/
+.idea/uiDesigner.xml
+.gitignore

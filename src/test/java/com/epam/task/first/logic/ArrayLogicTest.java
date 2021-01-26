@@ -84,7 +84,7 @@ public class ArrayLogicTest {
     }
 
     @Test
-    public void shouldFindSumWhenPositiveNumbersApplied() {
+    public void testShouldFindSumWhenPositiveNumbersApplied() {
         // given
         Array array = new Array(1, 9, 5);
 
@@ -96,7 +96,7 @@ public class ArrayLogicTest {
     }
 
     @Test
-    public void shouldFindSumWhenNegativeNumbersApplied() {
+    public void testShouldFindSumWhenNegativeNumbersApplied() {
         // given
         Array array = new Array(-1, -4, -6);
 
@@ -108,7 +108,7 @@ public class ArrayLogicTest {
     }
 
     @Test
-    public void shouldFindSumWhenNoNumbersApplied() {
+    public void testShouldFindSumWhenNoNumbersApplied() {
         // given
         Array array = new Array();
 
@@ -120,7 +120,7 @@ public class ArrayLogicTest {
     }
 
     @Test
-    public void shouldFindNumOfPositiveNumsWhenPositiveNumsApplied() {
+    public void testShouldFindNumOfPositiveNumsWhenPositiveNumsApplied() {
         // given
         Array array = new Array(1, 3, 8, 1);
 
@@ -132,7 +132,7 @@ public class ArrayLogicTest {
     }
 
     @Test
-    public void shouldFindNumOfPositiveNumsWhenNegativeNumsApplied() {
+    public void testShouldFindNumOfPositiveNumsWhenNegativeNumsApplied() {
         // given
         Array array = new Array(-1, -3, -5, -9);
 
@@ -144,7 +144,7 @@ public class ArrayLogicTest {
     }
 
     @Test
-    public void shouldFindNumOfPositiveNumsWhenPosNNegatNumsApplied() {
+    public void testShouldFindNumOfPositiveNumsWhenPosNNegatNumsApplied() {
         // given
         Array array = new Array(2, -2, 3, -3, -5, -9, 10, 9);
 
@@ -156,7 +156,7 @@ public class ArrayLogicTest {
     }
 
     @Test
-    public void shouldChangeSignOfNumsWhenPositiveNumsApplied() {
+    public void testShouldChangeSignOfNumsWhenPositiveNumsApplied() {
         // given
         Array array = new Array(2, 3, 4);
         List<Integer> expected = new ArrayList();
@@ -170,7 +170,7 @@ public class ArrayLogicTest {
     }
 
     @Test
-    public void shouldChangeSignOfNumsWhenNegativeNumsApplied() {
+    public void testShouldChangeSignOfNumsWhenNegativeNumsApplied() {
         // given
         Array array = new Array(-5, -2, -1);
         List<Integer> expected = new ArrayList();
@@ -184,7 +184,7 @@ public class ArrayLogicTest {
     }
 
     @Test
-    public void shouldChangeSignOfNumsWhenNullsApplied() {
+    public void testShouldChangeSignOfNumsWhenNullsApplied() {
         // given
         Array array = new Array(0, 0, 0);
         List<Integer> expected = new ArrayList();
